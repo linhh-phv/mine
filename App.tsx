@@ -14,9 +14,9 @@ import SplashScreen from 'react-native-splash-screen';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
 const App = () => {
-  // useEffect(() => {
-  //   SplashScreen.hide();
-  // });
+  useEffect(() => {
+    SplashScreen.hide();
+  });
   return (
     <SafeAreaView style={{flex: 1}}>
       <AppContainer />
